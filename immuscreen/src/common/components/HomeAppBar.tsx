@@ -93,7 +93,7 @@ const HomeAppBar = () => {
               }}
             >
               <Image
-                src="/igSCREEN_dark.png"
+                src="/igSCREEN_red.png"
                 width={100}
                 height={50}
                 alt="igSCREEN logo"
@@ -155,7 +155,7 @@ const HomeAppBar = () => {
               }}
             >
               <Image
-                src="/igSCREEN_dark.png"
+                src="/igSCREEN_red.png"
                 width={116}
                 height={50}
                 alt="igSCREEN logo"

@@ -96,7 +96,7 @@ export const TitledTrack: React.FC<{
 const DefaultTracks: React.FC<DefaultTracksProps> = (props) => {
   const [cTracks, setTracks] = useState<[string, string][]>(
     [
-      ["All iCREs", "https://downloads.wenglab.org/Calderon-Corces_activeCREs_iSCREEN.bigBed"],
+      ["All iCREs", "https://downloads.wenglab.org/Calderon-Corces_activeCREs_iSCREEN_withcolors.bigBed"],
     ]
   )
   const height = useMemo(() => cTracks.length * 80, [cTracks])

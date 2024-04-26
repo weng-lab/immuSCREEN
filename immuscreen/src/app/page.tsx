@@ -26,7 +26,7 @@ const Home = () => {
       <Grid2 container spacing={6} sx={{ mr: "auto", ml: "auto", mt: "2rem" }}>
         <Grid2 xs={12}>
           <Image
-            src="/igSCREEN_light.png"
+            src="/igSCREEN_red_light.png"
             width={400}
             height={172}
             alt="igSCREEN logo"

@@ -78,7 +78,7 @@ const ChromBPNetAtacTracks: React.FC<ChromBPNetBulkAtacTrackProps> = ({
 
   const defaultTracks: [string, string][] = []
 
-  for (let cell of defaultcelltypes) {
+  if (defaultcelltypes) for (let cell of defaultcelltypes) {
     //Currently this is slightly broken in that it includes all monocyte experiments when "Mono" is cell since Mono is substring of all Monocyte S and U experiments, need to fix
     const experiments = Object.entries(experimentInfo).filter(([experiment, info]) => experiment.includes(cell))
     experiments.forEach(exp => {
